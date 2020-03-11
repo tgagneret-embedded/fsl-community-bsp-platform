@@ -6,6 +6,7 @@
   <remote fetch="https://git.yoctoproject.org/git" name="yocto"/>
   <remote fetch="https://github.com/Freescale" name="freescale"/>
   <remote fetch="https://github.com/openembedded" name="oe"/>
+  <remote fetch="https://github.com/tgagneret-embedded" name="tgagneret-embedded"/>
 
   <project remote="yocto" revision="zeus" name="poky" path="sources/poky"/>
   <project remote="yocto" revision="zeus" name="meta-freescale" path="sources/meta-freescale"/>
@@ -20,5 +21,7 @@
   <project remote="freescale" revision="zeus" name="meta-freescale-3rdparty" path="sources/meta-freescale-3rdparty"/>
   <project remote="freescale" revision="zeus" name="meta-freescale-distro" path="sources/meta-freescale-distro"/>
   <project remote="freescale" revision="zeus" name="Documentation" path="sources/Documentation"/>
+
+  <project remote="tgagneret-embedded" revision="zeus" name="meta-maax-board" path="sources/meta-maax-board"/>
 
 </manifest>
